@@ -1,0 +1,461 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+input {
+    font-size: 24px;
+    height: 120px;
+    width: 1000px;
+}
+
+.section {
+    justify-content: center;
+    display: block;
+}
+
+#header {
+    height: 480px;
+    background-color: #171427;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section__menu {
+    padding: 60px 100px 50px 100px;
+    display: flex;
+    align-items: center;
+    height: 15px;
+}
+
+.section__menu__options {
+    padding: 7px 13px;
+}
+
+.section__menu--logo {
+    background-size: 900px;
+    width: 74px;
+    height: 15px;
+    background-image: url(../src/39.jpg);
+    background-position-y: -33px;
+    background-position-x: -95px;
+}
+
+.section__menu__login {
+    right: 0;
+    display: flex;
+    padding-left: 580px;
+}
+
+.section__menu__login--login {
+    border: rgba(255, 255, 255, 0.377) 2px solid;
+    border-radius: 5px;
+}
+
+.header__presentation {
+    display: block;
+    align-items: center;
+    margin: 80px;
+    padding-left: 14px;
+}
+
+.header__presentation--title {}
+
+.header__presentation__info {
+    display: flex;
+    align-items: center;
+}
+
+.header__presentation__info--p {
+    width: 480px;
+    font-size: 22px;
+}
+
+.startProfile-button {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background-color: #cf1c22;
+    height: 60px;
+    margin: 50px 30px 30px 470px;
+    width: 250px;
+    padding: 10px;
+}
+
+.howItWorks {
+    height: 730px;
+    background-color: #cf1c22;
+    display: block;
+}
+
+.howItWorks--title {
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+.howItWorks__info {
+    display: flex;
+    justify-content: center;
+}
+
+.howItWorks__info--img {
+    width: 429px;
+    height: 465px;
+    background-size: 1000px;
+    background-image: url(../src/39.jpg);
+    background-position-y: -618px;
+    background-position-x: -110px;
+}
+
+#howItWorks_img {}
+
+.howItWorks__info__text {}
+
+.howItWorks__info__text--p {
+    width: 250px;
+    text-align: center;
+}
+
+.howItWorks__info__text--p-title {
+    color: #7d0200;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.howItWorks__info__text--p-info {
+    padding-bottom: 40px;
+}
+
+.search {
+    justify-content: center;
+    display: block;
+    height: 600px;
+    background-color: #171427;
+}
+
+.search__info {
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.search__searcher {
+    display: flex;
+    justify-content: center;
+}
+
+.search__info2 {
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 350px;
+    height: 30px;
+    background-size: 950px;
+    background-image: url(../src/39.jpg);
+    background-position-y: -1365px;
+    background-position-x: -306px;
+}
+
+.search__art {
+    display: flex;
+    justify-content: center;
+}
+
+.search__artists {
+    margin-top: 50px;
+    width: 180px;
+    height: 202px;
+    background-size: 950px;
+    background-image: url(../src/39.jpg);
+}
+
+.search__artist-1 {
+    background-position-y: -1430px;
+    background-position-x: -110px;
+}
+
+.search__artist-2 {
+    background-position-y: -1430px;
+    background-position-x: -290px;
+}
+
+.search__artist-3 {
+    background-position-y: -1430px;
+    background-position-x: -470px;
+}
+
+.search__artist-4 {
+    background-position-y: -1430px;
+    background-position-x: -650px;
+}
+
+
+#popularArtists {
+    height: 560px;
+    background-color: white;
+    text-align: center;
+    display: block;
+}
+
+.popularArtists--title {
+    display: flex;
+    margin-left: 520px;
+    color: black;
+}
+
+#popularArtists--title-Artists {
+    color: #cf1c22;
+    padding-left: 10px;
+}
+
+.popularArtists__artists__up {
+    display: flex;
+    justify-content: center;
+}
+
+.popularArtists__artists__down {
+    display: flex;
+    justify-content: center;
+}
+
+.popularArtists__artists__div {
+    margin: 30px 10px 0 0;
+    width: 180px;
+    height: 195px;
+    background-size: 950px;
+    background-image: url(../src/39.jpg);
+}
+
+.popularArtists__artists__up-1 {
+    background-position-y: -1815px;
+    background-position-x: -105px;
+}
+
+.popularArtists__artists__up-2 {
+    background-position-y: -1815px;
+    background-position-x: -292px;
+}
+
+.popularArtists__artists__up-3 {
+    background-position-y: -1815px;
+    background-position-x: -479px;
+}
+
+.popularArtists__artists__up-4 {
+    background-position-y: -1815px;
+    background-position-x: -667px;
+}
+
+.popularArtists__artists__down-1 {
+    background-position-y: -2047px;
+    background-position-x: -105px;
+}
+
+.popularArtists__artists__down-2 {
+    background-position-y: -2047px;
+    background-position-x: -292px;
+}
+
+.popularArtists__artists__down-3 {
+    background-position-y: -2047px;
+    background-position-x: -479px;
+}
+
+.popularArtists__artists__down-4 {
+    background-position-y: -2047px;
+    background-position-x: -667px;
+}
+
+#counters {
+    height: 510px;
+    background-size: 1300px;
+    background-image: url(../src/39.jpg);
+    background-position-y: -3140px;
+    background-position-x: 0px;
+}
+
+#tops {
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tops__week{
+    margin-top: 25px;
+    width: 350px;
+}
+
+.tops__week-title{
+    text-align: center;
+    color: black;
+}
+
+.tops__week-title>h1{
+    font-size: 22px;
+}
+
+.tops__week-artists{
+    display: block;
+    margin-top: 20px;
+}
+
+.tops__week-artist{
+    height: 70px;
+    width: 300px;
+    background-size: 1200px;
+    background-image: url(../src/39.jpg);
+}
+
+.tops__week-artist-1{
+    background-position-y: -3512px;
+    background-position-x: -128px;
+}
+
+.tops__week-artist-2{
+    background-position-y: -3587px;
+    background-position-x: -128px;
+}
+
+.tops__week-artist-3{
+    background-position-y: -3664px;
+    background-position-x: -128px;
+}
+
+.tops__week-artist-4{
+    background-position-y: -3738px;
+    background-position-x: -128px;
+}
+
+.tops__week-artist-5{
+    background-position-y: -3821px;
+    background-position-x: -128px;
+}
+
+.tops__week-tracks-1{
+    background-position-y: -3512px;
+    background-position-x: -440px;
+}
+
+.tops__week-tracks-2{
+    background-position-y: -3587px;
+    background-position-x: -440px;
+}
+
+.tops__week-tracks-3{
+    background-position-y: -3664px;
+    background-position-x: -440px;
+}
+
+.tops__week-tracks-4{
+    background-position-y: -3738px;
+    background-position-x: -440px;
+}
+
+.tops__week-tracks-5{
+    background-position-y: -3821px;
+    background-position-x: -440px;
+}
+
+.tops__week-events-1{
+    background-position-y: -3512px;
+    background-position-x: -753px;
+}
+
+.tops__week-events-2{
+    background-position-y: -3587px;
+    background-position-x: -753px;
+}
+
+.tops__week-events-3{
+    background-position-y: -3664px;
+    background-position-x: -753px;
+}
+
+.tops__week-events-4{
+    background-position-y: -3738px;
+    background-position-x: -753px;
+}
+
+.tops__week-events-5{
+    background-position-y: -3821px;
+    background-position-x: -753px;
+}
+
+
+.download{
+    height: 600px;
+    background-size: 1380px;
+    background-image: url(../src/39.jpg);
+    background-position-y: -4505px;
+    background-position-x: 0px;
+}
+
+.startProfile {
+    height: 280px;
+    background-color: white;
+    display: block;
+    justify-content: center;
+}
+
+.startProfile-title{
+    padding: 50px 0 0 0;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+}
+
+.startProfile-text{
+    height: 470px;
+    width: 298px;
+    background-size: 1356px;
+    background-image: url(../src/39.jpg);
+    background-position-y: -5162px;
+    background-position-x: 505px;
+}
+
+#lastFm{
+    color: #b30300;
+}
+
+#button{
+    margin-left: 550px;
+}
+
+.footer {
+    display: flex;
+    bottom: 0;
+    height: 300px;
+    background-color: #171427;
+}
+
+.footer__infos {
+    display: flex;
+}
+
+.footer__info {
+    width: 155px;
+    padding: 20px 40px;
+}
+
+.footer__info-a{
+    display: block;
+}
+
+.footer__info>p {
+    padding: 10px 0 10px;
+}
